@@ -1,0 +1,12 @@
+@url = http://localhost:3000/livros
+
+GET {{url}}
+
+###
+POST {{url}}
+Content-type: application/json
+
+{
+    "titulo": "Assassinato no Expresso do Oriente",
+    "generoId": 1
+}
